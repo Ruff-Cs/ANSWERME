@@ -20,7 +20,7 @@
     <MauiXaml Update="Resources\Styles\Styles.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\HomePage.xaml">
+    <MauiXaml Update="Views\HomeView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

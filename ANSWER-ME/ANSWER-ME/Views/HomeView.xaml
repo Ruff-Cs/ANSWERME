@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ANSWER_ME.Views.HomeView"
+             Title="HomeView" NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="70,100,*,*,*">
+
+        <Button  Grid.Row="0" Text="Ach" HeightRequest="50" WidthRequest="50" HorizontalOptions="End" Margin="0,0,15,0"/>
+
+        <Grid Grid.Row="1" ColumnDefinitions="235*,353*,235*,176*">
+            <Button Grid.Column="0" Text="Easy" HeightRequest="70" Margin="5" />
+            <Button Grid.Column="1" Text="Medium" HeightRequest="70" Margin="5"/>
+            <Button Grid.Column="2" Text="Hard" HeightRequest="70" Margin="5"/>
+            <Button Grid.Column="3" Text="Any" HeightRequest="70" Margin="5"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>

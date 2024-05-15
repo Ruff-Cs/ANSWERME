@@ -9,7 +9,8 @@ namespace ANSWER_ME
             InitializeComponent();
 
 
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new NavigationPage(new HomeView());
+            Application.Current.UserAppTheme = AppTheme.Light;
         }
     }
 }
