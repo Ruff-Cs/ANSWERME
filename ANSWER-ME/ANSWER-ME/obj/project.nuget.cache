@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QhX31gNOC8h9znQkHZpYvM8w6FnxAoJHy6jTShpcqkfDnhq5JTYEvrP5QVCelCG5YmKFJXKhPeRc9UI1VFG1mA==",
+  "dgSpecHash": "jJ3VA1RSg59pFJrXd1y9AwWQAVWiQj6dwK9sHgbsQFHOJw/Sbsuc7iT4osNjGf9PJF6ST6ZM8gzo6ocHMkFKUA==",
   "success": true,
   "projectFilePath": "C:\\Csaboo\\Git\\ANSWERME\\ANSWER-ME\\ANSWER-ME\\ANSWER-ME.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ruffc\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

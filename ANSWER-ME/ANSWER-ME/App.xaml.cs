@@ -1,4 +1,5 @@
-﻿using ANSWER_ME.Views;
+﻿using ANSWER_ME.ViewModels;
+using ANSWER_ME.Views;
 
 namespace ANSWER_ME
 {
@@ -9,8 +10,13 @@ namespace ANSWER_ME
             InitializeComponent();
 
 
-            MainPage = new NavigationPage(new HomeView());
-            Application.Current.UserAppTheme = AppTheme.Light;
+            Current.UserAppTheme = AppTheme.Light;
+            HomeViewModel vm = new HomeViewModel();
+            MainPage = new NavigationPage(new HomeView(vm));
+            Routing.RegisterRoute(nameof(TriviaView), typeof(TriviaView));
+            Routing.RegisterRoute(nameof(AchivementView), typeof(AchivementView));
+
+            // category list
         }
     }
 }
