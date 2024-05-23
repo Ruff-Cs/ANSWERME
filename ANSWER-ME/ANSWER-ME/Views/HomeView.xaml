@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ANSWER_ME.Models"
              x:Class="ANSWER_ME.Views.HomeView"
              NavigationPage.HasNavigationBar="False">
 
-    <Grid RowDefinitions="55,100,*,90,120">
+    <Grid RowDefinitions="55,50,*,100,90,120" ColumnDefinitions="*,*">
 
-        <Button x:Name="AchivementsBTN" Grid.Row="0" Text="A" HeightRequest="40" WidthRequest="40" HorizontalOptions="End" Margin="0,0,15,0" BorderColor="{StaticResource Primary}" Clicked="AchivementsBTN_Clicked"/>
+        <Button x:Name="AchivementsBTN" Grid.Row="0" Grid.ColumnSpan="2" Text="A" HeightRequest="40" WidthRequest="40" HorizontalOptions="End" Margin="0,0,15,0" BorderColor="{StaticResource Primary}"  Clicked="AchivementsBTN_Clicked"/>
 
-        <Frame Grid.Row="1" Grid.RowSpan="4" BackgroundColor="{StaticResource Primary}" Margin="-5,0,-5,-50"/>
+        <Frame Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="2" BackgroundColor="{StaticResource Primary}" Margin="-5,0,-5,-50"/>
+        <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Category" Margin="20,20,0,0" FontSize="22"/>
 
-        <Grid Grid.Row="1" RowDefinitions="40,50" ColumnDefinitions="235*,353*,235*,176*">
-            <Label Grid.ColumnSpan="4" Grid.Row="0" Text="Difficulty" VerticalOptions="Center" Margin="20,10,0,0"/>
-
-            <Button Grid.Column="0" Grid.Row="1" Text="Easy" Margin="5"/>
-            <Button Grid.Column="1" Grid.Row="1" Text="Medium" Margin="5"/>
-            <Button Grid.Column="2" Grid.Row="1" Text="Hard" Margin="5"/>
-            <Button Grid.Column="3" Grid.Row="1" Text="Any" Margin="5" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}"/>
-        </Grid>
-
-        <Grid Grid.Row="2" Margin="0,20,0,20">
+        <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,0" BackgroundColor="Transparent">
             <CarouselView Background="transparent" Loop="False" Margin="0,40,0,0">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <Grid RowDefinitions="*,60">
-                            <Image/>
-                            <Label/>
                         </Grid>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <Label Text="Category" Margin="40,20,0,0" TextColor="{StaticResource White}"/>
-            <Frame BackgroundColor="{StaticResource Secondary}" WidthRequest="370"/>
+            <models:CategoryCard/>
         </Grid>
 
-        <Grid Grid.Row="3" Margin="10,0,10,10">
+        <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="10,0,10,10">
             <Slider Margin="20,0,20,0" Minimum="5" Maximum="30" />
             <Label Text="30 rounds" VerticalOptions="Center" Margin="0,40,20,0" Padding="0,0,10,0" HorizontalTextAlignment="End" HorizontalOptions="End" WidthRequest="100"/>
             <Frame/>
         </Grid>
 
-        <Button Grid.Row="4" Margin="10,0,10,10" Text="Play" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}"/>
+        <Grid Grid.Row="4" Grid.RowSpan="2" ColumnDefinitions="*,*" RowDefinitions="40,*,*" Margin="10,0,0,10">
+            <Label Grid.ColumnSpan="2" Grid.Row="0" Text="Difficulty" VerticalOptions="Center" Margin="10,0,0,0" FontSize="22"/>
+
+            <Button Grid.Column="0" Grid.Row="1" Text="Easy" Margin="2" CornerRadius="20"/>
+            <Button Grid.Column="1" Grid.Row="1" Text="Medium" Margin="2" CornerRadius="20"/>
+            <Button Grid.Column="0" Grid.Row="2" Text="Hard" Margin="2" CornerRadius="20"/>
+            <Button Grid.Column="1" Grid.Row="2" Text="Any" Margin="2" CornerRadius="20" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}"/>
+        </Grid>
+
+        <Button Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}"/>
 
     </Grid>
 </ContentPage>
