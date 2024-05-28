@@ -6,7 +6,7 @@
     <Frame Margin="10">
 
         <Grid RowDefinitions="*,8*" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" WidthRequest="330">
-            <Image x:Name="IllustrationIMG" Grid.Row="1" Margin="20" Source="generalk.png" Aspect="AspectFit"/>
+            <Image x:Name="IllustrationIMG" Grid.Row="1" Margin="20" Source="generalknowledge.png" Aspect="AspectFit"/>
             <Label x:Name="TitleLBL" Grid.Row="0" TextColor="{StaticResource AccentPrimary}" FontAttributes="Bold" Text="Cartoon n Animations" Opacity="1" HorizontalTextAlignment="Center" FontSize="30"/>
         </Grid>
     </Frame>

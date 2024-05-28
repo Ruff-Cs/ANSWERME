@@ -4,5 +4,54 @@
         <name>ANSWER-ME</name>
     </assembly>
     <members>
+        <member name="T:ANSWER_ME.ViewModels.HomeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.RoundValue">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.roundValue"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.RoundText">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.roundText"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.Difficulty">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.difficulty"/>
+        </member>
+        <member name="F:ANSWER_ME.ViewModels.HomeViewModel.setDifficultyCommand">
+            <summary>The backing field for <see cref="P:ANSWER_ME.ViewModels.HomeViewModel.SetDifficultyCommand"/>.</summary>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.SetDifficultyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ANSWER_ME.ViewModels.HomeViewModel.SetDifficulty(System.String)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RoundValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RoundValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RoundText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RoundText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Difficulty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Difficulty" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RoundValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RoundValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RoundText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RoundText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Difficulty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Difficulty" generated properties.</summary>
+        </member>
     </members>
 </doc>

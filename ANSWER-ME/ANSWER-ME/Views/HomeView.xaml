@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:ANSWER_ME.Models"
+             xmlns:viewmodels="clr-namespace:ANSWER_ME.ViewModels"            
              x:Class="ANSWER_ME.Views.HomeView"
-             NavigationPage.HasNavigationBar="False">
+             Shell.NavBarIsVisible="False">
 
     <Grid RowDefinitions="55,50,*,100,90,120" ColumnDefinitions="*,*">
 
@@ -25,18 +26,18 @@
         </Grid>
 
         <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="10,0,10,10">
-            <Slider Margin="20,0,20,0" Minimum="5" Maximum="30" />
-            <Label Text="30 rounds" VerticalOptions="Center" Margin="0,40,20,0" Padding="0,0,10,0" HorizontalTextAlignment="End" HorizontalOptions="End" WidthRequest="100"/>
+            <Slider x:Name="roundSLDR" Value="{Binding RoundValue, Mode=OneWay}" Margin="20,0,20,0" Minimum="5" Maximum="30" ValueChanged="RoundSLDR_ValueChanged"/>
+            <Label x:Name="roundLBL" Text="{Binding RoundText}" VerticalOptions="Center" Margin="0,40,20,0" Padding="0,0,10,0" HorizontalTextAlignment="End" HorizontalOptions="End" WidthRequest="100"/>
             <Frame/>
         </Grid>
 
-        <Grid Grid.Row="4" Grid.RowSpan="2" ColumnDefinitions="*,*" RowDefinitions="40,*,*" Margin="10,0,0,10">
+        <Grid x:Name="DifficultyGRID" Grid.Row="4" Grid.RowSpan="2" ColumnDefinitions="*,*" RowDefinitions="40,*,*" Margin="10,0,0,10">
             <Label Grid.ColumnSpan="2" Grid.Row="0" Text="Difficulty" VerticalOptions="Center" Margin="10,0,0,0" FontSize="22"/>
 
-            <Button Grid.Column="0" Grid.Row="1" Text="Easy" Margin="2" CornerRadius="20"/>
-            <Button Grid.Column="1" Grid.Row="1" Text="Medium" Margin="2" CornerRadius="20"/>
-            <Button Grid.Column="0" Grid.Row="2" Text="Hard" Margin="2" CornerRadius="20"/>
-            <Button Grid.Column="1" Grid.Row="2" Text="Any" Margin="2" CornerRadius="20" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}"/>
+            <Button x:Name="EasyBTN" Grid.Column="0" Grid.Row="1" Text="Easy" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="easy" Clicked="DiffBTN_Clicked"/>
+            <Button x:Name="MediumBTN" Grid.Column="1" Grid.Row="1" Text="Medium" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="medium" Clicked="DiffBTN_Clicked"/>
+            <Button x:Name="HardBTN" Grid.Column="0" Grid.Row="2" Text="Hard" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="hard" Clicked="DiffBTN_Clicked"/>
+            <Button x:Name="AnyBTN" Grid.Column="1" Grid.Row="2" Text="Any" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="any" Clicked="DiffBTN_Clicked"/>
         </Grid>
 
         <Button Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}"/>

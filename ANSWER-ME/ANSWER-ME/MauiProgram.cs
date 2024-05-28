@@ -18,12 +18,12 @@ namespace ANSWER_ME
                     fonts.AddFont("Alef-Regular.ttf", "Alef");
                 });
 
-            builder.Services.AddSingleton<HomeView>();
-            builder.Services.AddSingleton<HomeViewModel>();
-
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
+
+            builder.Services.AddSingleton<HomeView>();
+            builder.Services.AddSingleton<HomeViewModel>();
 
             return builder.Build();
         }

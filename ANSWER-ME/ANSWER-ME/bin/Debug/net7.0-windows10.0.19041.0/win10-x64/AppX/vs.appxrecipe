@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-21T15:30:09.905</Modified>
+      <Modified>2024-05-28T11:24:32.269</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-21T15:30:09.650</Modified>
+      <Modified>2024-05-28T11:24:32.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.runtimeconfig.json">
       <PackagePath>ANSWER-ME.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-21T15:30:09.405</Modified>
+      <Modified>2024-05-28T11:24:31.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.dll">
       <PackagePath>ANSWER-ME.dll</PackagePath>
-      <Modified>2024-05-21T15:30:08.025</Modified>
+      <Modified>2024-05-28T11:24:30.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ANSWER-ME.exe</PackagePath>
-      <Modified>2024-05-21T15:30:08.046</Modified>
+      <Modified>2024-05-28T11:24:30.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.deps.json">
       <PackagePath>ANSWER-ME.deps.json</PackagePath>
-      <Modified>2024-05-21T15:30:09.300</Modified>
+      <Modified>2024-05-28T11:24:31.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -941,6 +941,246 @@
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-05-14T18:57:27.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:35.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:35.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:35.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:35.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:35.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Alef-Regular.ttf">
+      <PackagePath>Alef-Regular.ttf</PackagePath>
+      <Modified>2024-05-21T11:29:44.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2024-05-14T18:57:27.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2024-05-14T18:57:27.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-05-28T08:59:36.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-05-28T08:59:36.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\generalknowledge.scale-100.png">
+      <PackagePath>generalknowledge.scale-100.png</PackagePath>
+      <Modified>2024-05-28T07:24:10.651</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

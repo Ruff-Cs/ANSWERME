@@ -49,13 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\Categorys\generalk.png" />
-	  <None Remove="Resources\Images\Categorys\generalknowledgepixel.png" />
+		<None Remove="Resources\Images\Categorys\generalknowledge.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="Resources\Images\Categorys\generalk.png" />
-	  <MauiImage Include="Resources\Images\Categorys\generalknowledgepixel.png" />
+		<MauiImage Include="Resources\Images\Categorys\generalknowledge.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -64,18 +62,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Models\CategoryCard.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\AchivementView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\HomeView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\TriviaView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<MauiXaml Update="AppShell.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Models\CategoryCard.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\AchivementView.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\HomeView.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\TriviaView.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 </Project>
