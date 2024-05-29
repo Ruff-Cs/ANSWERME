@@ -22,7 +22,14 @@
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <models:CategoryCard/>
+            <!--<models:CategoryCard/>-->
+            <Frame Margin="10">
+
+                <Grid RowDefinitions="*,8*" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" WidthRequest="330">
+                    <Image x:Name="IllustrationIMG" Grid.Row="1" Margin="20" Source="generalknowledge.png" Aspect="AspectFit"/>
+                    <Label x:Name="TitleLBL" Grid.Row="0" TextColor="{StaticResource AccentPrimary}" FontAttributes="Bold" Text="General knowledge" Opacity="1" HorizontalTextAlignment="Center" FontSize="30"/>
+                </Grid>
+            </Frame>
         </Grid>
 
         <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="10,0,10,10">

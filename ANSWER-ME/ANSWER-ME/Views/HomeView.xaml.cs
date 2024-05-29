@@ -7,8 +7,8 @@ public partial class HomeView : ContentPage
     HomeViewModel vm;
     public HomeView()
     {
-        vm = new HomeViewModel();
         InitializeComponent();
+        vm = new HomeViewModel();
         BindingContext = vm;
         roundSLDR.Value = 10;
         AnyBTN.IsEnabled = false;
@@ -17,6 +17,7 @@ public partial class HomeView : ContentPage
     private async void AchivementsBTN_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new AchivementView());
+        await Shell.Current.GoToAsync(nameof(AchivementView));
     }
 
     private void RoundSLDR_ValueChanged(object sender, ValueChangedEventArgs e)

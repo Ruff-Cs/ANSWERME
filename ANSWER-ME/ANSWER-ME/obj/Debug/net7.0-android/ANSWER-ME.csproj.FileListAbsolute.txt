@@ -976,6 +976,7 @@ D:\ruff\GIT\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\jni_remap.arm64
 D:\ruff\GIT\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 D:\ruff\GIT\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\resizetizer\r\drawable\generalknowledgepixel.png
 D:\ruff\GIT\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\resizetizer\r\drawable\generalk.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\bin\classes.dex
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-android\ANSWER-ME.runtimeconfig.json
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-android\ANSWER-ME.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-android\ANSWER-ME.pdb
@@ -1943,7 +1944,6 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\envi
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\bin\classes.dex
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\android\bin\classes2.dex
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-android\stamp\_CompileJava.stamp

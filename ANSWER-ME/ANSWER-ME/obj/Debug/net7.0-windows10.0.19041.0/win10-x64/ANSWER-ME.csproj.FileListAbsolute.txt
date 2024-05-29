@@ -1,3 +1,8 @@
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.CoreLib.dll
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.AccessControl.dll
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.dll
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.exe
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.deps.json
@@ -119,7 +124,6 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Numerics.Vectors.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Numerics.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.ObjectModel.dll
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.CoreLib.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.DataContractSerialization.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.Uri.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.Xml.Linq.dll
@@ -152,7 +156,6 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Runtime.Serialization.Xml.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Runtime.Serialization.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Runtime.dll
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.AccessControl.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Claims.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Algorithms.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Cng.dll
@@ -160,8 +163,6 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Encoding.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.OpenSsl.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Primitives.dll
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.X509Certificates.dll
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Principal.Windows.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.Principal.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Security.SecureString.dll
@@ -221,7 +222,6 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1123.42427.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ANSWER-ME.csproj.AssemblyReference.cache
