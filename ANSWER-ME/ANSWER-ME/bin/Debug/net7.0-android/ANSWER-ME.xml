@@ -17,6 +17,9 @@
         <member name="P:ANSWER_ME.ViewModels.HomeViewModel.Difficulty">
             <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.difficulty"/>
         </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.Categories">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.categories"/>
+        </member>
         <member name="F:ANSWER_ME.ViewModels.HomeViewModel.setDifficultyCommand">
             <summary>The backing field for <see cref="P:ANSWER_ME.ViewModels.HomeViewModel.SetDifficultyCommand"/>.</summary>
         </member>
@@ -38,6 +41,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Difficulty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Difficulty" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -52,6 +58,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Difficulty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Difficulty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Categories" generated properties.</summary>
         </member>
     </members>
 </doc>

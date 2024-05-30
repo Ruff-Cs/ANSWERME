@@ -16,7 +16,7 @@ public partial class HomeView : ContentPage
 
     private async void AchivementsBTN_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new AchivementView());
+        // await Navigation.PushAsync(new AchivementView());
         await Shell.Current.GoToAsync(nameof(AchivementView));
     }
 
@@ -29,5 +29,7 @@ public partial class HomeView : ContentPage
     {
         AnyBTN.IsEnabled = EasyBTN.IsEnabled = MediumBTN.IsEnabled = HardBTN.IsEnabled = true;
         ((Button)sender).IsEnabled = false;
+
+        //CategoryCV.ItemsSource = vm.Categories;
     }
 }

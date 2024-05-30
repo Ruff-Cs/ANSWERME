@@ -1,4 +1,4 @@
-﻿using ANSWER_ME.Views;
+﻿using ANSWER_ME.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
@@ -14,6 +14,9 @@ namespace ANSWER_ME.ViewModels
 
         [ObservableProperty]
         private string difficulty;
+
+        [ObservableProperty]
+        public List<Category> categories = Category.CreateCategories();
 
         public HomeViewModel()
         {
@@ -32,5 +35,6 @@ namespace ANSWER_ME.ViewModels
         {
             Difficulty = diff;
         }
+
     }
 }

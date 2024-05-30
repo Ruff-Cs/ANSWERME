@@ -9,8 +9,10 @@
     </Style>
 
     <Style TargetType="IndicatorView">
-        <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
-        <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>
+        <Setter Property="IndicatorColor" Value="{StaticResource Secondary}"/>
+        <Setter Property="SelectedIndicatorColor" Value="{StaticResource AccentPrimary}"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
     </Style>
 
     <Style TargetType="Border">
@@ -162,6 +164,7 @@
         <Setter Property="BackgroundColor" Value="{StaticResource Secondary}" />
         <Setter Property="CornerRadius" Value="40" />
         <Setter Property="ZIndex" Value="-1"/>
+        <Setter Property="Padding" Value="0"/>
     </Style>
 
     <Style TargetType="ImageButton">
