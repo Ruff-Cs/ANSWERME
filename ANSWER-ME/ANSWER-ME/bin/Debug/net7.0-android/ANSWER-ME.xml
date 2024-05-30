@@ -4,6 +4,12 @@
         <name>ANSWER-ME</name>
     </assembly>
     <members>
+        <member name="T:ANSWER_ME.ViewModels.AchivementsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.AchivementsViewModel.Achivements">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.AchivementsViewModel.achivements"/>
+        </member>
         <member name="T:ANSWER_ME.ViewModels.HomeViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -32,6 +38,9 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Achivements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Achivements" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RoundValue" generated properties.</summary>
         </member>
@@ -49,6 +58,9 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Achivements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Achivements" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RoundValue" generated properties.</summary>
