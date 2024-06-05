@@ -2,41 +2,38 @@
 
 namespace ANSWER_ME.Models
 {
-    public class AchivementDatabase
+    public static class AchivementDatabase
     {
-        SQLiteAsyncConnection Database;
-        public AchivementDatabase()
+        static SQLiteAsyncConnection Database;
+        static AchivementDatabase()
         {
-
+            // Init();
         }
 
-        void Init()
+        public static void Init()
         {
             if (Database is not null)
-            {
                 return;
-            }
-            else
-            {
-                Database = new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
-                var result = Database.CreateTableAsync<Achivement>().ConfigureAwait(false);
-            }
+
+            Database = new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
+            var result = Database.CreateTableAsync<Achivement>().ConfigureAwait(false);
         }
 
-        public List<Achivement> GetItemsAsync()
+        public static List<Achivement> GetItemsAsync()
         {
             Init();
             return Database.Table<Achivement>().ToListAsync().Result;
         }
 
-        public async Task<int> UpdateItemAsync(Achivement ach)
+        public static async Task<int> UpdateItemAsync(Achivement ach)
         {
             Init();
             return await Database.UpdateAsync(ach);
         }
 
-        private async void CreateAchivements()
+        public static async void CreateAchivements()
         {
+            Init();
             List<Achivement> achivements = new List<Achivement>
             {
                 new Achivement("10 failed", "10 incorrect answers", "achivements.png"),
@@ -45,8 +42,10 @@ namespace ANSWER_ME.Models
                 new Achivement("Mastermind", "get 30/30 right answers", "achivements.png"),
                 new Achivement("Title", "Description", "achivements.png")
             };
-
-            await Database.InsertAllAsync(achivements);
+            if (achivements[0].ID == 0)
+            {
+                await Database.InsertAllAsync(achivements);
+            }
         }
     }
 }

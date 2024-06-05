@@ -8,18 +8,16 @@ namespace ANSWER_ME.ViewModels
         [ObservableProperty]
         private List<Achivement> achivements;
 
-        private AchivementDatabase Database;
 
         public AchivementsViewModel()
         {
             Achivements = new List<Achivement>();
-            Database = new AchivementDatabase();
             Load();
         }
 
         public void Load()
         {
-            Achivements = new List<Achivement>(Database.GetItemsAsync());
+            Achivements = new List<Achivement>(AchivementDatabase.GetItemsAsync());
         }
     }
 }

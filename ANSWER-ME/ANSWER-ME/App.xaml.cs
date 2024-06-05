@@ -13,6 +13,8 @@ namespace ANSWER_ME
             MainPage = new AppShell();
             Routing.RegisterRoute(nameof(TriviaView), typeof(TriviaView));
             Routing.RegisterRoute(nameof(AchivementView), typeof(AchivementView));
+
+            AchivementDatabase.CreateAchivements();
         }
     }
 }

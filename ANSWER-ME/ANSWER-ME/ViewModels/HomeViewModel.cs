@@ -20,7 +20,6 @@ namespace ANSWER_ME.ViewModels
 
         public HomeViewModel()
         {
-            SliderMoved(10);
             SetDifficulty("any");
         }
 

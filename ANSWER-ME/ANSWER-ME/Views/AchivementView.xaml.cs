@@ -1,3 +1,4 @@
+using ANSWER_ME.Models;
 using ANSWER_ME.ViewModels;
 
 namespace ANSWER_ME.Views;
@@ -18,5 +19,10 @@ public partial class AchivementView : ContentPage
         ((Image)sender).IsAnimationPlaying = false;
         await Task.Delay(100);
         ((Image)sender).IsAnimationPlaying = true;
+    }
+
+    private void ContentPage_Loaded(object sender, EventArgs e)
+    {
+        // AchivementDatabase.CreateAchivements();
     }
 }
