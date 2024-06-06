@@ -32,4 +32,19 @@ public partial class HomeView : ContentPage
 
         //CategoryCV.ItemsSource = vm.Categories;
     }
+
+    private async void PlayBTN_Clicked(object sender, EventArgs e)
+    {
+        PlayBTN.IsEnabled = false;
+        try
+        {
+            vm.CallTrivia();
+        }
+        catch (Exception x)
+        {
+            await DisplayAlert("Something went wrong", $"{x}", "Ok");
+        }
+        await Navigation.PushAsync(new TriviaView(vm.t));
+        PlayBTN.IsEnabled = true;
+    }
 }

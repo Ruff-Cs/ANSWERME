@@ -2,10 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ANSWER_ME.Views.TriviaView"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False" Loaded="Label_Loaded">
 
-    <Grid>
+    <Grid RowDefinitions="*,3*,3*">
+        <Grid ColumnDefinitions="*,2*,*" Margin="15">
+            <Grid.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="VerticalOptions" Value="Center"/>
+                    <Setter Property="HorizontalOptions" Value="Center"/>
+                </Style>
+            </Grid.Resources>
 
+            <Frame Grid.ColumnSpan="3" ZIndex="-2"/>
+            <Frame Grid.Column="1" ZIndex="-1" BackgroundColor="Black" Margin="0,10,0,10"/>
+
+            <Label Text="{Binding Difficulty}" Grid.Column="0"/>
+            <Label Text="{Binding Type}" Grid.Column="1" TextColor="{StaticResource White}" FontSize="24"/>
+            <Label Text="{Binding CurrentIndex}" Grid.Column="2"/>
+        </Grid>
     </Grid>
 
 </ContentPage>

@@ -13,7 +13,7 @@
         <Frame Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="2" BackgroundColor="{StaticResource Primary}" Margin="-5,0,-5,-50"/>
         <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Category" Margin="20,20,0,0" FontSize="22"/>
 
-        <CarouselView x:Name="CategoryCV" Grid.Row="2" Grid.ColumnSpan="2"  Background="transparent" Loop="False" VerticalOptions="End" Margin="0,10,0,10" ItemsSource="{Binding Categories}" PeekAreaInsets="30" IndicatorView="indicatorView">
+        <CarouselView x:Name="CategoryCV" Grid.Row="2" Grid.ColumnSpan="2"  Background="transparent" Loop="False" VerticalOptions="End" Margin="0,10,0,10" ItemsSource="{Binding Categories}" CurrentItem="{Binding SelectedCategory, Mode=TwoWay}" PeekAreaInsets="30" IndicatorView="indicatorView">
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Frame CornerRadius="45" Margin="5,0,5,0">
@@ -45,7 +45,7 @@
             <Button x:Name="AnyBTN" Grid.Column="1" Grid.Row="2" Text="Any" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="any" Clicked="DiffBTN_Clicked"/>
         </Grid>
 
-        <Button Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}"/>
+        <Button x:Name="PlayBTN" Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}" Clicked="PlayBTN_Clicked"/>
 
     </Grid>
 </ContentPage>

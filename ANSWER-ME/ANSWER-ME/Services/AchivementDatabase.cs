@@ -34,16 +34,17 @@ namespace ANSWER_ME.Models
         public static async void CreateAchivements()
         {
             Init();
-            List<Achivement> achivements = new List<Achivement>
+            int x = Database.Table<Achivement>().ToListAsync().Result.Count;
+            if (x == 0)
             {
-                new Achivement("10 failed", "10 incorrect answers", "achivements.png"),
-                new Achivement("20 right", "20 good answers", "achivements.png"),
-                new Achivement("Egg hunter", "find the hidden", "achivements.png"),
-                new Achivement("Mastermind", "get 30/30 right answers", "achivements.png"),
-                new Achivement("Title", "Description", "achivements.png")
-            };
-            if (achivements[0].ID == 0)
-            {
+                List<Achivement> achivements = new List<Achivement>
+                {
+                    new Achivement("10 failed", "10 incorrect answers", "achivements.png"),
+                    new Achivement("20 right", "20 good answers", "achivements.png"),
+                    new Achivement("Egg hunter", "find the hidden", "achivements.png"),
+                    new Achivement("Mastermind", "get 30/30 right answers", "achivements.png"),
+                    new Achivement("Title", "Description", "achivements.png")
+                };
                 await Database.InsertAllAsync(achivements);
             }
         }

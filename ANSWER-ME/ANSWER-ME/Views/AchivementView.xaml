@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
             <Image Source="cat.gif" Loaded="Image_Loaded" WidthRequest="200"/>
-            <CollectionView ItemsSource="{Binding Achivements}" BackgroundColor="DarkGray">
+            <CollectionView ItemsSource="{Binding Achivements}" BackgroundColor="DarkGray" Loaded="CollectionView_Loaded">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Label Text="{Binding Title}" TextColor="White"/>

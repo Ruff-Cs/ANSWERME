@@ -1,5 +1,4 @@
-﻿
-namespace ANSWER_ME.Models
+﻿namespace ANSWER_ME.Models
 {
     public class Category
     {
