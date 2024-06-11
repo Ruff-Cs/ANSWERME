@@ -688,11 +688,26 @@
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlitepclraw.bundle_green\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.2\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -871,6 +886,9 @@
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\books.scale-100.png">
       <PackagePath>books.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cat.scale-100.gif">
+      <PackagePath>cat.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -886,8 +904,8 @@
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\films.scale-100.png">
-      <PackagePath>films.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\film.scale-100.png">
+      <PackagePath>film.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\generalknowledge.scale-100.png">
       <PackagePath>generalknowledge.scale-100.png</PackagePath>

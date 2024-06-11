@@ -13,7 +13,7 @@
         <Frame Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="2" BackgroundColor="{StaticResource Primary}" Margin="-5,0,-5,-50"/>
         <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Category" Margin="20,20,0,0" FontSize="22"/>
 
-        <CarouselView x:Name="CategoryCV" Grid.Row="2" Grid.ColumnSpan="2"  Background="transparent" Loop="False" VerticalOptions="End" Margin="10" ItemsSource="{Binding Categories}" PeekAreaInsets="30" IndicatorView="indicatorView">
+        <CarouselView x:Name="CategoryCV" Grid.Row="2" Grid.ColumnSpan="2"  Background="transparent" Loop="False" VerticalOptions="End" Margin="0,10,0,10" ItemsSource="{Binding Categories}" CurrentItem="{Binding SelectedCategory, Mode=TwoWay}" PeekAreaInsets="30" IndicatorView="indicatorView">
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Frame CornerRadius="45" Margin="5,0,5,0">
@@ -37,15 +37,33 @@
         </Grid>
 
         <Grid x:Name="DifficultyGRID" Grid.Row="4" Grid.RowSpan="2" ColumnDefinitions="*,*" RowDefinitions="40,*,*" Margin="10,0,0,10">
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="VisualStateManager.VisualStateGroups">
+                        <VisualStateGroupList>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="Disabled">
+                                    <VisualState.Setters>
+                                        <Setter Property="TextColor" Value="{StaticResource Black}" />
+                                        <Setter Property="BackgroundColor" Value="{StaticResource AccentPrimary}" />
+                                        <Setter Property="BackgroundColor" Value="{StaticResource AccentPrimary}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateGroupList>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
             <Label Grid.ColumnSpan="2" Grid.Row="0" Text="Difficulty" VerticalOptions="Center" Margin="10,0,0,0" FontSize="22"/>
 
             <Button x:Name="EasyBTN" Grid.Column="0" Grid.Row="1" Text="Easy" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="easy" Clicked="DiffBTN_Clicked"/>
-            <Button x:Name="MediumBTN" Grid.Column="1" Grid.Row="1" Text="Medium" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="medium" Clicked="DiffBTN_Clicked"/>
+            <Button x:Name="MediumBTN" Grid.Column="1" Grid.Row="1" Text="Medium" Margin="2" Padding="0" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="medium" Clicked="DiffBTN_Clicked"/>
             <Button x:Name="HardBTN" Grid.Column="0" Grid.Row="2" Text="Hard" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="hard" Clicked="DiffBTN_Clicked"/>
             <Button x:Name="AnyBTN" Grid.Column="1" Grid.Row="2" Text="Any" Margin="2" CornerRadius="20" Command="{Binding SetDifficultyCommand}" CommandParameter="any" Clicked="DiffBTN_Clicked"/>
         </Grid>
 
-        <Button Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}"/>
+        <Button x:Name="PlayBTN" Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Margin="10,0,10,10" Text="Play" CornerRadius="40" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" FontSize="50" FontAttributes="Bold" BorderColor="{StaticResource AccentSecondary}" Clicked="PlayBTN_Clicked"/>
 
     </Grid>
 </ContentPage>

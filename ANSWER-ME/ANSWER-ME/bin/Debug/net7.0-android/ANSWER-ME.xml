@@ -4,6 +4,12 @@
         <name>ANSWER-ME</name>
     </assembly>
     <members>
+        <member name="T:ANSWER_ME.ViewModels.AchivementsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.AchivementsViewModel.Achivements">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.AchivementsViewModel.achivements"/>
+        </member>
         <member name="T:ANSWER_ME.ViewModels.HomeViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -17,6 +23,9 @@
         <member name="P:ANSWER_ME.ViewModels.HomeViewModel.Difficulty">
             <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.difficulty"/>
         </member>
+        <member name="P:ANSWER_ME.ViewModels.HomeViewModel.SelectedCategory">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.selectedCategory"/>
+        </member>
         <member name="P:ANSWER_ME.ViewModels.HomeViewModel.Categories">
             <inheritdoc cref="F:ANSWER_ME.ViewModels.HomeViewModel.categories"/>
         </member>
@@ -26,11 +35,47 @@
         <member name="P:ANSWER_ME.ViewModels.HomeViewModel.SetDifficultyCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ANSWER_ME.ViewModels.HomeViewModel.SetDifficulty(System.String)"/>.</summary>
         </member>
+        <member name="T:ANSWER_ME.ViewModels.TriviaViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.Difficulty">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.difficulty"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.Type">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.type"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.CurrentIndex">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.currentIndex"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.Category">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.category"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.Question">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.question"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.Picture">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.picture"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.ButtonA">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.buttonA"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.ButtonB">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.buttonB"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.ButtonC">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.buttonC"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.TriviaViewModel.ButtonD">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.TriviaViewModel.buttonD"/>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Achivements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Achivements" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RoundValue" generated properties.</summary>
@@ -41,14 +86,47 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Difficulty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Difficulty" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Categories">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Type">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Type" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Question">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Question" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Picture">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Picture" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ButtonA">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ButtonA" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ButtonB">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ButtonB" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ButtonC">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ButtonC" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ButtonD">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ButtonD" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Achivements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Achivements" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RoundValue" generated properties.</summary>
@@ -59,8 +137,38 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Difficulty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Difficulty" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Categories">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Type">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Type" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Question">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Question" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Picture">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Picture" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ButtonA">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ButtonA" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ButtonB">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ButtonB" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ButtonC">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ButtonC" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ButtonD">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ButtonD" generated properties.</summary>
         </member>
     </members>
 </doc>

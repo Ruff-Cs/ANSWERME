@@ -11,6 +11,8 @@
     <Color x:Key="AccentSecondary">#E1DD46</Color>
     <Color x:Key="White">#FBF6EE</Color>
     <Color x:Key="Black">#171f13</Color>
+    <Color x:Key="Green">#A6FD71</Color>
+    <Color x:Key="Red">#FD9B71</Color>
     <Color x:Key="Gray100">#E1E1E1</Color>
     <Color x:Key="Gray200">#C8C8C8</Color>
     <Color x:Key="Gray300">#ACACAC</Color>

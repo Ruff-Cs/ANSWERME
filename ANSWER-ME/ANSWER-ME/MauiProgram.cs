@@ -25,6 +25,12 @@ namespace ANSWER_ME
             builder.Services.AddSingleton<HomeView>();
             builder.Services.AddSingleton<HomeViewModel>();
 
+            builder.Services.AddSingleton<AchivementView>();
+            builder.Services.AddSingleton<AchivementsViewModel>();
+
+            builder.Services.AddSingleton<TriviaView>();
+            builder.Services.AddSingleton<TriviaViewModel>();
+
             return builder.Build();
         }
     }
