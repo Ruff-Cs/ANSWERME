@@ -50,14 +50,14 @@
 
 	<ItemGroup>
 		<None Remove="Resources\Images\Categorys\books.png" />
-		<None Remove="Resources\Images\Categorys\films.png" />
+		<None Remove="Resources\Images\Categorys\film.png" />
 		<None Remove="Resources\Images\Categorys\generalknowledge.png" />
 		<None Remove="Resources\Images\Categorys\random.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<MauiImage Include="Resources\Images\Categorys\books.png" />
-		<MauiImage Include="Resources\Images\Categorys\films.png" />
+		<MauiImage Include="Resources\Images\Categorys\film.png" />
 		<MauiImage Include="Resources\Images\Categorys\generalknowledge.png" />
 		<MauiImage Include="Resources\Images\Categorys\random.png" />
 	</ItemGroup>

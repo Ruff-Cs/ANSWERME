@@ -23,6 +23,7 @@ namespace ANSWER_ME.ViewModels
         public List<Category> categories = Category.CreateCategories();
 
         public Trivia t;
+        public string end;
 
         public HomeViewModel()
         {
@@ -43,9 +44,9 @@ namespace ANSWER_ME.ViewModels
 
         public void CallTrivia()
         {
-
+            end = $"{SelectedCategory.Title};{Difficulty};{(int)RoundValue}";
             string Url = "https://opentdb.com/api.php?";
-            Url += $"amount={RoundValue}";
+            Url += $"amount={(int)RoundValue}";
 
             switch (SelectedCategory.Title)
             {
@@ -76,22 +77,30 @@ namespace ANSWER_ME.ViewModels
             }
 
             t = ApiCalls.GetTrivia(Url).Result;
-            foreach (TriviaResult res in t.results.ToList())
+            try
             {
-                res.category = WebUtility.HtmlDecode(res.category);
-                res.question = WebUtility.HtmlDecode(res.question);
-                res.correct_answer = WebUtility.HtmlDecode(res.correct_answer);
-                for (int i = 0; i < res.incorrect_answers.Length; i++)
+                foreach (TriviaResult res in t.results.ToList())
                 {
-                    res.incorrect_answers[i] = WebUtility.HtmlDecode(res.incorrect_answers[i]);
+                    res.category = WebUtility.HtmlDecode(res.category);
+                    res.question = WebUtility.HtmlDecode(res.question);
+                    res.correct_answer = WebUtility.HtmlDecode(res.correct_answer);
+                    for (int i = 0; i < res.incorrect_answers.Length; i++)
+                    {
+                        res.incorrect_answers[i] = WebUtility.HtmlDecode(res.incorrect_answers[i]);
+                    }
+
+                    if (res.category.Contains("Science: ")) res.category = res.category[9..];
+                    else if (res.category.Contains("Entertainment: ")) res.category = res.category[15..];
+
+                    if (res.type == "boolean") res.type = "True or False";
+                    else res.type = "Choose One";
+
+                    res.difficulty = $"{res.difficulty[0]}".ToUpper() + res.difficulty[1..];
                 }
-
-                if (res.category.Contains("Science: ")) res.category = res.category.Substring(8, res.category.Count() - 8);
-                else if (res.category.Contains("Entertainment: ")) res.category = res.category.Substring(15, res.category.Count() - 15);
-
-                if (res.type == "boolean") res.type = "True or False";
-                else res.type = "Choose one";
-
+            }
+            catch (Exception)
+            {
+                t = null;
             }
         }
     }

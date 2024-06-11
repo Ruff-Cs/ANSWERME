@@ -15,7 +15,7 @@
                 new Category(){ID=8, ImgSource = "random.png", Title = "Random"},
                 new Category(){ID=9, ImgSource = "generalknowledge.png", Title = "General Knowledge", FntSize = 30},
                 new Category(){ID=10, ImgSource = "books.png", Title = "Books"},
-                new Category(){ID=11, ImgSource = "films.png", Title = "Films"},
+                new Category(){ID=11, ImgSource = "film.png", Title = "Film"},
 
                 new Category(){ID=12, ImgSource = "generalknowledge.png", Title = "Music"},
                 new Category(){ID=13, ImgSource = "generalknowledge.png", Title = "Musicals & Theatres", FntSize = 30},

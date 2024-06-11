@@ -44,7 +44,10 @@ public partial class HomeView : ContentPage
         {
             await DisplayAlert("Something went wrong", $"{x}", "Ok");
         }
-        await Navigation.PushAsync(new TriviaView(vm.t));
+
+        if (vm.t != null && vm.t.response_code == 0) await Navigation.PushAsync(new TriviaView(vm.t, vm.end));
+        else await DisplayAlert("Ooops", "Something went wrong", "Ok");
+
         PlayBTN.IsEnabled = true;
     }
 }

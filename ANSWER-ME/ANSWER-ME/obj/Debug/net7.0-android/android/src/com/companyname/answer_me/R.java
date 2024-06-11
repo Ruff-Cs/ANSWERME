@@ -10735,7 +10735,7 @@ public final class R {
     public static final int design_password_eye=0x7f070080;
     public static final int design_snackbar_background=0x7f070081;
     public static final int dotnet_bot=0x7f070082;
-    public static final int films=0x7f070083;
+    public static final int film=0x7f070083;
     public static final int generalknowledge=0x7f070084;
     public static final int ic_clock_black_24dp=0x7f070085;
     public static final int ic_keyboard_black_24dp=0x7f070086;

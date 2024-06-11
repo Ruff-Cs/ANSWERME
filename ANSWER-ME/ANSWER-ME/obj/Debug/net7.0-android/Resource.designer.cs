@@ -8029,7 +8029,7 @@ namespace ANSWER_ME
 			public const int dotnet_bot = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int films = 2131165315;
+			public const int film = 2131165315;
 			
 			// aapt resource value: 0x7F070084
 			public const int generalknowledge = 2131165316;
