@@ -14,12 +14,6 @@ public partial class HomeView : ContentPage
         AnyBTN.IsEnabled = false;
     }
 
-    private async void AchivementsBTN_Clicked(object sender, EventArgs e)
-    {
-        // await Navigation.PushAsync(new AchivementView());
-        await Shell.Current.GoToAsync(nameof(AchivementView));
-    }
-
     private void RoundSLDR_ValueChanged(object sender, ValueChangedEventArgs e)
     {
         vm.SliderMoved(e.NewValue);
@@ -49,5 +43,16 @@ public partial class HomeView : ContentPage
         else await DisplayAlert("Ooops", "Something went wrong", "Ok");
 
         PlayBTN.IsEnabled = true;
+    }
+
+    private async void AchivementsBTN_Clicked(object sender, EventArgs e)
+    {
+        // await Navigation.PushAsync(new AchivementView());
+        await Shell.Current.GoToAsync(nameof(AchivementView));
+    }
+
+    private async void HistoryBTN_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(HistoryView));
     }
 }

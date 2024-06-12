@@ -6,9 +6,12 @@
              x:Class="ANSWER_ME.Views.HomeView"
              Shell.NavBarIsVisible="False">
 
-    <Grid RowDefinitions=".13*,.12*,*,.25*,.22*,.32*" ColumnDefinitions="*,*">
+    <Grid RowDefinitions="50,.12*,*,.25*,.22*,.32*" ColumnDefinitions="*,*">
 
-        <Button x:Name="AchivementsBTN" Grid.Row="0" Grid.ColumnSpan="2" Text="A" HeightRequest="40" WidthRequest="40" HorizontalOptions="End" Margin="0,0,15,0" BorderColor="{StaticResource Primary}"  Clicked="AchivementsBTN_Clicked"/>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" ColumnDefinitions="*,50,50" HorizontalOptions="End" Margin="0,0,15,0">
+            <ImageButton x:Name="HistoryBTN" Grid.Column="1" Source="gamehistory.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}"  Clicked="HistoryBTN_Clicked"/>
+            <ImageButton x:Name="AchivementsBTN" Grid.Column="2" Source="achivements.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}"  Clicked="AchivementsBTN_Clicked"/>
+        </Grid>
 
         <Frame Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="2" BackgroundColor="{StaticResource Primary}" Margin="-5,0,-5,-50"/>
         <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Category" Margin="20,20,0,0" FontSize="22"/>

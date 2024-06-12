@@ -44,6 +44,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = ANSWER_ME.Views.Achivement
 build_metadata.AdditionalFiles.TargetPath = Views\AchivementView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AchivementView.xaml
 
+[C:/Csaboo/Git/ANSWERME/ANSWER-ME/ANSWER-ME/Views/FormView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ANSWER_ME.Views.FormView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FormView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FormView.xaml
+
+[C:/Csaboo/Git/ANSWERME/ANSWER-ME/ANSWER-ME/Views/HistoryView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ANSWER_ME.Views.HistoryView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HistoryView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HistoryView.xaml
+
 [C:/Csaboo/Git/ANSWERME/ANSWER-ME/ANSWER-ME/Views/HomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ANSWER_ME.Views.HomeView.xaml

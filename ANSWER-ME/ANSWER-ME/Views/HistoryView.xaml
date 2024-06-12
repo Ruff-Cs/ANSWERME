@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ANSWER_ME.Views.HistoryView"
+             Title="HistoryView" Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions="50,*">
+        <Grid ColumnDefinitions="50,*" Margin="15,0,0,0">
+            <ImageButton x:Name="HomeBTN" Grid.Column="0" Source="home.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}" Clicked="HomeBTN_Clicked"/>
+        </Grid>
+        <CollectionView Grid.Row="1">
+
+        </CollectionView>
+    </Grid>
+</ContentPage>

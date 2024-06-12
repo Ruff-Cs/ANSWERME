@@ -31,6 +31,9 @@ namespace ANSWER_ME
             builder.Services.AddSingleton<TriviaView>();
             builder.Services.AddSingleton<TriviaViewModel>();
 
+            builder.Services.AddSingleton<FormView>();
+            builder.Services.AddSingleton<FormViewModel>();
+
             return builder.Build();
         }
     }

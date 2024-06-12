@@ -51,11 +51,7 @@ namespace ANSWER_ME.ViewModels
             Category = trivia.results[index].category;
             Question = trivia.results[index].question;
 
-            Picture = Category.ToLower() + ".png";
-            /*while (Picture.Contains(' '))
-            {
-                Picture = Picture.Replace(" ", null);
-            }*/
+            Picture = (Category.Contains(' ') ? Category.Split(' ')[0] : Category) + ".png";
         }
 
         private void SetButtons()

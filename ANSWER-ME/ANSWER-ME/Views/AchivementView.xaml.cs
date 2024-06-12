@@ -21,13 +21,8 @@ public partial class AchivementView : ContentPage
         ((Image)sender).IsAnimationPlaying = true;
     }
 
-    private void ContentPage_Loaded(object sender, EventArgs e)
-    {
-        AchivementDatabase.CreateAchivements();
-    }
-
     private void CollectionView_Loaded(object sender, EventArgs e)
     {
-        // AchivementDatabase.CreateAchivements();
+        AchivementDatabase.CreateAchivements();
     }
 }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ANSWER_ME.Views.FormView"
+             Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="1.4*,3*,*">
+
+        <Frame CornerRadius="40" Margin="15,10,15,15">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0) -->
+                <LinearGradientBrush EndPoint="0,.5">
+                    <GradientStop Color="Black"
+                          Offset="0.6" />
+                    <GradientStop Color="{StaticResource Primary}"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+            <Grid RowDefinitions="*,*,1.5*" Margin="20" VerticalOptions="Center">
+                <Grid.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="FontSize" Value="35"/>
+                        <Setter Property="Opacity" Value="1"/>
+                        <Setter Property="FontAttributes" Value="Bold"/>
+                    </Style>
+                </Grid.Resources>
+                <Label Grid.Row="0" Text="{Binding Message}"/>
+                <Label Grid.Row="1" Text="{Binding PointsRound}"/>
+                <Label Grid.Row="2" Text="{Binding Score.Description}" FontSize="18" Opacity=".8" FontAttributes="None"/>
+            </Grid>
+        </Frame>
+
+        <Grid Grid.Row="1" HorizontalOptions="Center" Margin="10,0,10,10">
+            <Frame Grid.RowSpan="2" VerticalOptions="Start">
+                <Image Source="{Binding CatSource}" Aspect="AspectFit" Loaded="Image_Loaded" Unloaded="Image_Unloaded"/>
+            </Frame>
+            <Frame Grid.Row="1"  Grid.RowSpan="2" WidthRequest="200" HeightRequest="100"  VerticalOptions="End" CornerRadius="30" BackgroundColor="{StaticResource Primary}">
+                <Entry Placeholder="Record Name" HorizontalTextAlignment="Center" VerticalOptions="Center" TextColor="{StaticResource White}" FontSize="22" MaxLength="15" Margin="10"/>
+            </Frame>
+        </Grid>
+
+        <Grid Grid.Row="2" ColumnDefinitions="*,2*" ColumnSpacing="10" Margin="20,0,20,10">
+            <ImageButton Grid.Column="0" Source="trashcan.svg" CornerRadius="40" Padding="30" Margin="-30"/>
+            <Button Grid.Column="1" Text="save" FontSize="65" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" Padding="0,0,0,5" BorderWidth="0" CornerRadius="40"/>
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
