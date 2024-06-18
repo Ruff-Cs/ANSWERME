@@ -4,8 +4,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Color x:Key="Primary">#5F7645</Color>
-    <Color x:Key="Secondary">#72865B</Color>
+    <Color x:Key="Primary">#4e7027</Color>
+    <Color x:Key="Secondary">#5c783b</Color>
     <Color x:Key="Tertiary">#7D8F68</Color>
     <Color x:Key="AccentPrimary">#F9F54B</Color>
     <Color x:Key="AccentSecondary">#E1DD46</Color>

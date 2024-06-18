@@ -1,6 +1,7 @@
-﻿using System.Text.Json;
+﻿using ANSWER_ME.Models;
+using System.Text.Json;
 
-namespace ANSWER_ME.Models
+namespace ANSWER_ME.Data
 {
     public class ApiCalls
     {

@@ -1,4 +1,5 @@
-﻿using ANSWER_ME.Models;
+﻿using ANSWER_ME.Data;
+using ANSWER_ME.Models;
 using ANSWER_ME.Views;
 
 namespace ANSWER_ME
@@ -16,7 +17,7 @@ namespace ANSWER_ME
             Routing.RegisterRoute(nameof(HistoryView), typeof(HistoryView));
             Routing.RegisterRoute(nameof(FormView), typeof(FormView));
 
-            AchivementDatabase.CreateAchivements();
+            Database.Init();
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using ANSWER_ME.Models;
+using ANSWER_ME.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace ANSWER_ME.ViewModels
 {
@@ -13,10 +15,12 @@ namespace ANSWER_ME.ViewModels
         public string message;
         [ObservableProperty]
         public string catSource;
+        [ObservableProperty]
+        public string name;
 
         public FormViewModel(string RoundInfo)
         {
-            Score = new Score(RoundInfo);
+            Score = new Score(RoundInfo, Name);
             PointsRound = $"{Score.Points}/{Score.Rounds}";
             Message = SetMessageOrImage(Messages);
             CatSource = SetMessageOrImage(CatImages) + ".gif";
@@ -48,6 +52,11 @@ namespace ANSWER_ME.ViewModels
                 100 => "Omniscient",
                 _ => "Interesting"
             };
+        }
+
+        public void NameChanged()
+        {
+            Score.Name = Name;
         }
     }
 }

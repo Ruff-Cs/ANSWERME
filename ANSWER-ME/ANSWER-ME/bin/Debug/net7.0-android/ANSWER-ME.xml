@@ -10,6 +10,9 @@
         <member name="P:ANSWER_ME.ViewModels.AchivementsViewModel.Achivements">
             <inheritdoc cref="F:ANSWER_ME.ViewModels.AchivementsViewModel.achivements"/>
         </member>
+        <member name="P:ANSWER_ME.ViewModels.AchivementsViewModel.Reds">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.AchivementsViewModel.reds"/>
+        </member>
         <member name="T:ANSWER_ME.ViewModels.FormViewModel">
             <inheritdoc/>
         </member>
@@ -24,6 +27,25 @@
         </member>
         <member name="P:ANSWER_ME.ViewModels.FormViewModel.CatSource">
             <inheritdoc cref="F:ANSWER_ME.ViewModels.FormViewModel.catSource"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.FormViewModel.Name">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.FormViewModel.name"/>
+        </member>
+        <member name="T:ANSWER_ME.ViewModels.HistoryViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HistoryViewModel.ScoreList">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HistoryViewModel.scoreList"/>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HistoryViewModel.IsEmpty">
+            <inheritdoc cref="F:ANSWER_ME.ViewModels.HistoryViewModel.isEmpty"/>
+        </member>
+        <member name="F:ANSWER_ME.ViewModels.HistoryViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:ANSWER_ME.ViewModels.HistoryViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ANSWER_ME.ViewModels.HistoryViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ANSWER_ME.ViewModels.HistoryViewModel.Delete(ANSWER_ME.Models.Score)"/>.</summary>
         </member>
         <member name="T:ANSWER_ME.ViewModels.HomeViewModel">
             <inheritdoc/>
@@ -92,6 +114,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Achivements">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Achivements" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Reds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Reds" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Score">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Score" generated properties.</summary>
         </member>
@@ -103,6 +128,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CatSource">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CatSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ScoreList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ScoreList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RoundValue" generated properties.</summary>
@@ -155,6 +189,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Achivements">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Achivements" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Reds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Reds" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Score">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Score" generated properties.</summary>
         </member>
@@ -166,6 +203,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CatSource">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CatSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ScoreList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ScoreList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RoundValue">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RoundValue" generated properties.</summary>

@@ -34,6 +34,9 @@ namespace ANSWER_ME
             builder.Services.AddSingleton<FormView>();
             builder.Services.AddSingleton<FormViewModel>();
 
+            builder.Services.AddSingleton<HistoryView>();
+            builder.Services.AddSingleton<HistoryViewModel>();
+
             return builder.Build();
         }
     }

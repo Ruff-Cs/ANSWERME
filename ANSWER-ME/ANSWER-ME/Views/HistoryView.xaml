@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ANSWER_ME.Views.HistoryView"
-             Title="HistoryView" Shell.NavBarIsVisible="False">
+             xmlns:vm="clr-namespace:ANSWER_ME.ViewModels"
+             x:Class="ANSWER_ME.Views.HistoryView" 
+             Shell.NavBarIsVisible="False" Appearing="ContentPage_Appearing">
     <Grid RowDefinitions="50,*">
+        <Grid.Resources>
+            <Style TargetType="Label">
+                <Setter Property="LineBreakMode" Value="TailTruncation"/>
+            </Style>
+        </Grid.Resources>
         <Grid ColumnDefinitions="50,*" Margin="15,0,0,0">
             <ImageButton x:Name="HomeBTN" Grid.Column="0" Source="home.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}" Clicked="HomeBTN_Clicked"/>
+            <Label Grid.Column="1" Text="Saved Rounds" HorizontalTextAlignment="End" VerticalOptions="Center" Margin="0,0,20,0" Opacity="1" FontSize="25"/>
         </Grid>
-        <CollectionView Grid.Row="1">
-
+        <Frame Grid.Row="1" Margin="0,0,0,-50" BackgroundColor="{StaticResource Primary}"/>
+        <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" Text="There are no saved rounds" FontAttributes="None" IsVisible="{Binding IsEmpty}"/>
+        <CollectionView Grid.Row="1" ItemsSource="{Binding ScoreList}" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems Mode="Reveal">
+                                <SwipeItem IconImageSource="trashcan.svg" BackgroundColor="Transparent" Command="{Binding Source={RelativeSource AncestorType={x:Type vm:HistoryViewModel}}, Path=DeleteCommand}" CommandParameter="{Binding Source={RelativeSource Self}, Path=BindingContext}" />
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <Frame Margin="10">
+                            <Grid RowDefinitions="*,*,*" ColumnDefinitions="100,*" Margin="15,5,15,5">
+                                <Label Grid.Column="0" Grid.RowSpan="2" Text="{Binding Stat}" Opacity="1" FontSize="35"/>
+                                <Label Grid.Column="1" Text="{Binding Category}" FontAttributes="Italic" FontSize="19"/>
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding Difficulty, StringFormat='{0} difficulty'}" FontAttributes="Italic" FontSize="19"/>
+                                <Grid Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" ColumnDefinitions="*,*">
+                                    <Label Text="{Binding Name}" Opacity="1" FontSize="23" HorizontalTextAlignment="Center"/>
+                                    <Label Grid.Column="1" Text="{Binding Time}" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
         </CollectionView>
     </Grid>
 </ContentPage>

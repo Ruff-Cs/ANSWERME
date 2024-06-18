@@ -23,8 +23,6 @@ public partial class HomeView : ContentPage
     {
         AnyBTN.IsEnabled = EasyBTN.IsEnabled = MediumBTN.IsEnabled = HardBTN.IsEnabled = true;
         ((Button)sender).IsEnabled = false;
-
-        //CategoryCV.ItemsSource = vm.Categories;
     }
 
     private async void PlayBTN_Clicked(object sender, EventArgs e)
@@ -54,5 +52,66 @@ public partial class HomeView : ContentPage
     private async void HistoryBTN_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(HistoryView));
+    }
+
+    private void ContentPage_Loaded(object sender, EventArgs e)
+    {
+        ToggleShake();
+    }
+
+    private void ContentPage_Unfocused(object sender, FocusEventArgs e)
+    {
+        ToggleShake();
+    }
+
+    private void ToggleShake()
+    {
+        if (Accelerometer.Default.IsSupported)
+        {
+            if (!Accelerometer.Default.IsMonitoring)
+            {
+                // Turn on accelerometer
+                Accelerometer.Default.ShakeDetected += Accelerometer_ShakeDetected;
+                Accelerometer.Default.Start(SensorSpeed.Game);
+            }
+            else
+            {
+                // Turn off accelerometer
+                Accelerometer.Default.Stop();
+                Accelerometer.Default.ShakeDetected -= Accelerometer_ShakeDetected;
+            }
+        }
+    }
+    private async void Accelerometer_ShakeDetected(object sender, EventArgs e)
+    {
+        ToggleShake();
+        // Randomise quiz settings and play button color
+        PlayBTN.BackgroundColor = new Color(Random.Shared.Next(256), Random.Shared.Next(256), Random.Shared.Next(256));
+
+        Random rnd = new();
+        List<Button> buttons = new() { EasyBTN, MediumBTN, HardBTN, AnyBTN };
+        int buttonRND = rnd.Next(4);
+        DiffBTN_Clicked(buttons[buttonRND], e);
+        vm.SetDifficulty(buttons[buttonRND].Text);
+
+        int categoryRND = rnd.Next(vm.Categories.Count);
+        CategoryCV.ScrollTo(categoryRND, -1, ScrollToPosition.Center);
+        CategoryCV.CurrentItem = vm.Categories[categoryRND];
+
+        int sliderRND = rnd.Next(5, 31);
+        roundSLDR.Value = sliderRND;
+        vm.SliderMoved(sliderRND);
+        await Task.Delay(250);
+        ToggleShake();
+    }
+    // loaded, focused are not as good as appearing
+    private void ContentPage_Appearing(object sender, EventArgs e)
+    {
+        ToggleShake();
+    }
+
+    private void ContentPage_Disappearing(object sender, EventArgs e)
+    {
+        ToggleShake();
     }
 }

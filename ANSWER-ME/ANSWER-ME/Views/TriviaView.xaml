@@ -50,10 +50,10 @@
             <Button Grid.Row="1" Grid.Column="0" Text="{Binding ButtonC}" Clicked="AnswerButton_Clicked"/>
             <Button Grid.Row="1" Grid.Column="1" Text="{Binding ButtonD}" Clicked="AnswerButton_Clicked"/>
 
-            <Button Grid.Row="0" Grid.Column="0" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Primary}" ZIndex="-1" Text="{Binding ButtonA, StringFormat='{0}Back'}" TextColor="Transparent"/>
-            <Button Grid.Row="0" Grid.Column="1" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Primary}" ZIndex="-1" Text="{Binding ButtonB, StringFormat='{0}Back'}" TextColor="Transparent"/>
-            <Button Grid.Row="1" Grid.Column="0" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Primary}" ZIndex="-1" Text="{Binding ButtonC, StringFormat='{0}Back'}" TextColor="Transparent"/>
-            <Button Grid.Row="1" Grid.Column="1" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Primary}" ZIndex="-1" Text="{Binding ButtonD, StringFormat='{0}Back'}" TextColor="Transparent"/>
+            <Button Grid.Row="0" Grid.Column="0" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Secondary}" ZIndex="-1" Text="{Binding ButtonA, StringFormat='{0}Back'}" TextColor="Transparent"/>
+            <Button Grid.Row="0" Grid.Column="1" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Secondary}" ZIndex="-1" Text="{Binding ButtonB, StringFormat='{0}Back'}" TextColor="Transparent"/>
+            <Button Grid.Row="1" Grid.Column="0" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Secondary}" ZIndex="-1" Text="{Binding ButtonC, StringFormat='{0}Back'}" TextColor="Transparent"/>
+            <Button Grid.Row="1" Grid.Column="1" IsEnabled="False" Opacity=".8" BorderColor="{StaticResource AccentPrimary}" BackgroundColor="{StaticResource Secondary}" ZIndex="-1" Text="{Binding ButtonD, StringFormat='{0}Back'}" TextColor="Transparent"/>
         </Grid>
     </Grid>
 

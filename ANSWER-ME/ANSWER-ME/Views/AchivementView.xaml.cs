@@ -5,24 +5,21 @@ namespace ANSWER_ME.Views;
 
 public partial class AchivementView : ContentPage
 {
-    AchivementsViewModel viewModel;
+    AchivementsViewModel vm;
     public AchivementView()
     {
         InitializeComponent();
-        viewModel = new AchivementsViewModel();
-        BindingContext = viewModel;
+        vm = new();
+        BindingContext = vm;
     }
 
-    private async void Image_Loaded(object sender, EventArgs e)
+    private void Button_Clicked(object sender, EventArgs e)
     {
-        await Task.Delay(100);
-        ((Image)sender).IsAnimationPlaying = false;
-        await Task.Delay(100);
-        ((Image)sender).IsAnimationPlaying = true;
+        vm.UpdateAchived(((Label)((Grid)((Button)sender).Parent).Children[0]).Text);
     }
 
-    private void CollectionView_Loaded(object sender, EventArgs e)
+    private async void HomeBTN_Clicked(object sender, EventArgs e)
     {
-        AchivementDatabase.CreateAchivements();
+        await Navigation.PopToRootAsync();
     }
 }

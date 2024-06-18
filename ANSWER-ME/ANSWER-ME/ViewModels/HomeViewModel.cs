@@ -1,4 +1,5 @@
-﻿using ANSWER_ME.Models;
+﻿using ANSWER_ME.Data;
+using ANSWER_ME.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Net;
@@ -33,7 +34,7 @@ namespace ANSWER_ME.ViewModels
         [RelayCommand]
         public void SetDifficulty(string diff)
         {
-            Difficulty = diff;
+            Difficulty = diff.ToLower();
         }
 
         public void SliderMoved(double newValue)

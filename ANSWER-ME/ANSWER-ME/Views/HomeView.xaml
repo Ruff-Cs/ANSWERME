@@ -4,11 +4,12 @@
              xmlns:models="clr-namespace:ANSWER_ME.Models"
              xmlns:viewmodels="clr-namespace:ANSWER_ME.ViewModels"            
              x:Class="ANSWER_ME.Views.HomeView"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False" Appearing="ContentPage_Appearing" Disappearing="ContentPage_Disappearing">
 
     <Grid RowDefinitions="50,.12*,*,.25*,.22*,.32*" ColumnDefinitions="*,*">
 
-        <Grid Grid.Row="0" Grid.ColumnSpan="2" ColumnDefinitions="*,50,50" HorizontalOptions="End" Margin="0,0,15,0">
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" ColumnDefinitions="*,50,50" Margin="0,0,15,0">
+            <Label Text="Set your Quiz!" HorizontalTextAlignment="Start" VerticalOptions="Center" Margin="20,0,0,0" Opacity="1" FontSize="25"/>
             <ImageButton x:Name="HistoryBTN" Grid.Column="1" Source="gamehistory.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}"  Clicked="HistoryBTN_Clicked"/>
             <ImageButton x:Name="AchivementsBTN" Grid.Column="2" Source="achivements.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}"  Clicked="AchivementsBTN_Clicked"/>
         </Grid>

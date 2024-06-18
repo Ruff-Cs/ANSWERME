@@ -84,18 +84,17 @@ namespace ANSWER_ME.ViewModels
 
         public void CheckAnswer(Button sender)
         {
-            if (sender.Text == trivia.results[index].correct_answer) Points++;
 
-            index++;
-            if (index <= trivia.results.Length - 1)
+            if (index < trivia.results.Length)
             {
-                if (index == 1) Time.Start();
-                MakeTriviaRound();
+                if (sender.Text == trivia.results[index].correct_answer) Points++;
+                if (index == 0) Time.Start();
+                index++;
+                if (index < trivia.results.Length)
+                    MakeTriviaRound();
             }
             else
-            {
                 Time.Stop();
-            }
         }
     }
 }

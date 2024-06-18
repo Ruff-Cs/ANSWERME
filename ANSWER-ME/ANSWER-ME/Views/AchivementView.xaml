@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ANSWER_ME.Models"
              x:Class="ANSWER_ME.Views.AchivementView"
              Shell.NavBarIsVisible="False">
     <ScrollView>
-        <StackLayout>
-            <Label 
-            Text="Achivements:"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-            <Image Source="cat.gif" Loaded="Image_Loaded" WidthRequest="200"/>
-            <CollectionView ItemsSource="{Binding Achivements}" BackgroundColor="DarkGray" Loaded="CollectionView_Loaded">
+        <Grid RowDefinitions="50,*">
+            <Grid ColumnDefinitions="50,*" Margin="15,0,0,0">
+                <ImageButton x:Name="HomeBTN" Grid.Column="0" Source="home.svg" HeightRequest="45" WidthRequest="45" BorderColor="{StaticResource Primary}" Clicked="HomeBTN_Clicked"/>
+                <Label Grid.Column="1" Text="Your Achivements" HorizontalTextAlignment="End" VerticalOptions="Center" Margin="0,0,20,0" Opacity="1" FontSize="25"/>
+            </Grid>
+            <CollectionView Grid.Row="1" ItemsSource="{Binding Achivements}">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Label Text="{Binding Title}" TextColor="White"/>
+                    <DataTemplate x:DataType="vm:Achivement">
+                        <Frame Margin="10,10,10,0" BackgroundColor="{StaticResource Primary}">
+                            <Grid RowDefinitions="35,50" ColumnDefinitions="260,90" Margin="15,5,20,5">
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Title, Mode=OneTime}" Opacity="1" FontSize="22" FontAttributes="Bold" VerticalTextAlignment="End"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Date, StringFormat='{0:yy.MM.dd}'}" HorizontalOptions="Start" FontSize="18" LineBreakMode="TailTruncation"/>
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description, Mode=OneTime}" FontAttributes="Italic" FontSize="18"/>
+                                <Button Grid.Row="1" Grid.Column="1" Text="Get" Clicked="Button_Clicked" ZIndex="10"/>
+                            </Grid>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </StackLayout>
+        </Grid>
     </ScrollView>
 </ContentPage>

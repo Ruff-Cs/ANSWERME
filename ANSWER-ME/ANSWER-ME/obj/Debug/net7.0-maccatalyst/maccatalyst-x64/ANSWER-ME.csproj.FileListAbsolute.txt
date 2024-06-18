@@ -512,9 +512,9 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatal
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\history.png
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\history@2x.png
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\history@3x.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\gamehistory.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\gamehistory@2x.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\gamehistory@3x.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home@2x.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home@3x.png
@@ -523,7 +523,7 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatal
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\badz.gif
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\books.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\film.png
-C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\generalknowledge.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\general.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\goodx.gif
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\goody.gif
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\goodz.gif
@@ -533,6 +533,9 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatal
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\midz.gif
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\omniscient.gif
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\random.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\trashcan.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\trashcan@2x.png
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\trashcan@3x.png
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.stamp

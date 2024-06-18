@@ -52,7 +52,7 @@
 		<None Remove="Resources\Images\achivements.svg" />
 		<None Remove="Resources\Images\Categorys\books.png" />
 		<None Remove="Resources\Images\Categorys\film.png" />
-		<None Remove="Resources\Images\Categorys\generalknowledge.png" />
+		<None Remove="Resources\Images\Categorys\general.png" />
 		<None Remove="Resources\Images\Categorys\random.png" />
 		<None Remove="Resources\Images\Cats\badx.gif" />
 		<None Remove="Resources\Images\Cats\bady.gif" />
@@ -70,7 +70,7 @@
 	<ItemGroup>
 		<MauiImage Include="Resources\Images\Categorys\books.png" />
 		<MauiImage Include="Resources\Images\Categorys\film.png" />
-		<MauiImage Include="Resources\Images\Categorys\generalknowledge.png" />
+		<MauiImage Include="Resources\Images\Categorys\general.png" />
 		<MauiImage Include="Resources\Images\Categorys\random.png" />
 		<MauiImage Include="Resources\Images\Cats\badx.gif" />
 		<MauiImage Include="Resources\Images\Cats\bady.gif" />
@@ -89,6 +89,7 @@
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
 	</ItemGroup>
 
 	<ItemGroup>
