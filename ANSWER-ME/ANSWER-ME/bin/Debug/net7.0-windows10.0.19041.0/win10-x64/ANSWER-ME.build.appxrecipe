@@ -688,6 +688,9 @@
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\plugin.maui.audio\2.1.0\lib\net6.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ruffc\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
     </AppxPackagedFile>
@@ -720,6 +723,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\Resources\Raw\badsound.wav">
+      <PackagePath>badsound.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\Resources\Raw\failsound.wav">
+      <PackagePath>failsound.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\Resources\Raw\winsound.wav">
+      <PackagePath>winsound.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

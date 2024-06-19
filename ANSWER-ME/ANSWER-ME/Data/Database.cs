@@ -40,11 +40,11 @@ namespace ANSWER_ME.Data
             return null;
         }
 
-        public static async Task<int?> UpdateItemAsync(Achivement ach)
+        public static int? UpdateAchivementAsync(Achivement ach)
         {
             Init();
             if (db is not null)
-                return await db.UpdateAsync(ach);
+                return db.UpdateAsync(ach).Result;
             return null;
         }
 
@@ -91,8 +91,8 @@ namespace ANSWER_ME.Data
                     new Achivement("Fastetst in the west", "100% a round in little time"),
                     new Achivement("It's not a race", "Spend 20 minutes on one round"),
                     // 100% 
-                    new Achivement("Check me out", "Get 10 out of 10 answers right"),
-                    new Achivement("Where's my Nobel Prize", "Get 30 out of 30 answers right"),
+                    new Achivement("Check me out", "Get 100% in a 10 round quiz"),
+                    new Achivement("Where's my Nobel Prize", "Get 100% in a 30 round quiz"),
                     // 0%
                     new Achivement("Achived Failure", "To rise you must first realize you have fallen"),
                     // 50%

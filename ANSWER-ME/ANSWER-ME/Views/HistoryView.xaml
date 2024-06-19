@@ -32,7 +32,7 @@
                                 <Label Grid.Row="1" Grid.Column="1" Text="{Binding Difficulty, StringFormat='{0} difficulty'}" FontAttributes="Italic" FontSize="19"/>
                                 <Grid Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" ColumnDefinitions="*,*">
                                     <Label Text="{Binding Name}" Opacity="1" FontSize="23" HorizontalTextAlignment="Center"/>
-                                    <Label Grid.Column="1" Text="{Binding Time}" HorizontalTextAlignment="Center"/>
+                                    <Label Grid.Column="1" Text="{Binding TimeString}" HorizontalTextAlignment="Center"/>
                                 </Grid>
                             </Grid>
                         </Frame>

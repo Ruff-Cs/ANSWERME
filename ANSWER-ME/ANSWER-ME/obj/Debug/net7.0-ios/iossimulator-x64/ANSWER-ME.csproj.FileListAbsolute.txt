@@ -293,6 +293,7 @@ C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.Maui.Audio.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\SQLite-net.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
 C:\Csaboo\Git\ANSWERME\ANSWER-ME\ANSWER-ME\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll

@@ -18,6 +18,7 @@
           "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.92",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "Plugin.Maui.Audio": "2.1.0",
           "SQLitePCLRaw.bundle_green": "2.1.8",
           "sqlite-net-pcl": "1.9.172",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.11",
@@ -1006,6 +1007,14 @@
           }
         }
       },
+      "Plugin.Maui.Audio/2.1.0": {
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.8"
@@ -1196,6 +1205,13 @@
       "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+    },
+    "Plugin.Maui.Audio/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U08FI/riFWEl4WzI5OpbsXXIpupN62WHOR//1CBG62EjqlW2iHxYp3Jr3f1vDg4UNvZ8OcMMJ7LZBXImDelWZA==",
+      "path": "plugin.maui.audio/2.1.0",
+      "hashPath": "plugin.maui.audio.2.1.0.nupkg.sha512"
     },
     "sqlite-net-pcl/1.9.172": {
       "type": "package",

@@ -22,11 +22,11 @@ namespace ANSWER_ME.Models
         [MaxLength(10), NotNull]
         public string Stat { get; set; }
         [MaxLength(15), NotNull]
-        public string Time { get; set; }
+        public string TimeString { get; set; }
+        [MaxLength(15), NotNull]
+        public TimeSpan Time { get; set; }
         [MaxLength(150), NotNull]
         public string Description { get; set; }
-        //[NotNull]
-        //public Trivia Trivia { get; set; }
 
         public Score(string RoundInfo, string name)
         {
@@ -37,12 +37,14 @@ namespace ANSWER_ME.Models
             Points = double.Parse(Infos[3]);
             Percent = Points / Rounds * 100;
             Stat = $"{Points}/{Rounds}";
-            Time = TimeSpan.Parse(Infos[4]).ToFormattedString("mm:ss:FFF");
+            Time = TimeSpan.Parse(Infos[4]);
+            TimeString = Time.ToFormattedString("mm:ss:FFF");
+            TimeString = TimeSpan.Parse(Infos[4]).ToFormattedString("mm:ss:FFF");
             Description =
-                (Category == "All  categorys" ? Category : $"{Category} category")
+                (Category == "All categorys" ? Category : $"{Category} category")
                 + $", {Difficulty.ToLower()} difficulty, "
                 + (Points == 1 ? $"{Points} point" : $"{Points} points")
-                + $" out of {Rounds} rounds in {Time} time.";
+                + $" out of {Rounds} rounds in {TimeString} time.";
             Name = name ?? "error";
         }
 

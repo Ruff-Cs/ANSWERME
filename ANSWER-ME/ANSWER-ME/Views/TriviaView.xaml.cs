@@ -1,5 +1,6 @@
 using ANSWER_ME.Models;
 using ANSWER_ME.ViewModels;
+using Plugin.Maui.Audio;
 
 namespace ANSWER_ME.Views;
 
@@ -23,6 +24,7 @@ public partial class TriviaView : ContentPage
     {
         ButtonOnOff(false);
 
+        Playsound(vm.trivia.results[vm.index].correct_answer == ((Button)sender).Text);
         await ColorButtonsAsync((Button)sender);
         vm.CheckAnswer((Button)sender);
         await CheckEndAsync();
@@ -93,4 +95,13 @@ public partial class TriviaView : ContentPage
         }
     }
 
+    private async void Playsound(bool goodbad)
+    {
+        IAudioPlayer audioPlayer;
+        if (goodbad)
+            audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("winsound.wav"));
+        else
+            audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("badsound.wav"));
+        audioPlayer.Play();
+    }
 }

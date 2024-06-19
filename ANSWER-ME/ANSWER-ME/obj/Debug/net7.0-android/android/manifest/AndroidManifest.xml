@@ -12,7 +12,7 @@
   <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
   <permission android:name="com.companyname.answer_me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.answer_me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc640d703754911f23a7.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ANSWER-ME" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="crc640d703754911f23a7.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ANSWER ME" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <activity android:name="crc640d703754911f23a7.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:screenOrientation="portrait" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

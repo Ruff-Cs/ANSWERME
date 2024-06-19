@@ -13,13 +13,13 @@ public partial class AchivementView : ContentPage
         BindingContext = vm;
     }
 
-    private void Button_Clicked(object sender, EventArgs e)
-    {
-        vm.UpdateAchived(((Label)((Grid)((Button)sender).Parent).Children[0]).Text);
-    }
-
     private async void HomeBTN_Clicked(object sender, EventArgs e)
     {
         await Navigation.PopToRootAsync();
+    }
+
+    private void ContentPage_Appearing(object sender, EventArgs e)
+    {
+        vm.Update();
     }
 }

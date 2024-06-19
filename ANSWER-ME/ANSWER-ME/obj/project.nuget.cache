@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pxGFyiezyUiT4H0blx5M9/0l39Wayx+fVTKknKB0kmnUpYozsxjq7hucwsDqKO59eFKOhrAgbJlqt915KdICYQ==",
+  "dgSpecHash": "J7lqRVxJER9OlKDX5vVXwcplWBTDH9s3Bv82avMqvYvXqpLGegWUW/Rd+EpQjhelMquwT5QGt0Q1NW8LUIV9hg==",
   "success": true,
   "projectFilePath": "C:\\Csaboo\\Git\\ANSWERME\\ANSWER-ME\\ANSWER-ME\\ANSWER-ME.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ruffc\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\ruffc\\.nuget\\packages\\plugin.maui.audio\\2.1.0\\plugin.maui.audio.2.1.0.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.8\\sqlitepclraw.bundle_green.2.1.8.nupkg.sha512",
     "C:\\Users\\ruffc\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",

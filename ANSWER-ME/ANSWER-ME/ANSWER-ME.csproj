@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>ANSWER-ME</ApplicationTitle>
+		<ApplicationTitle>ANSWER ME</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.answer_me</ApplicationId>
@@ -65,6 +65,9 @@
 		<None Remove="Resources\Images\Cats\midz.gif" />
 		<None Remove="Resources\Images\Cats\omniscient.gif" />
 		<None Remove="Resources\Images\gamehistory.svg" />
+		<None Remove="Resources\Raw\badsound.wav" />
+		<None Remove="Resources\Raw\failsound.wav" />
+		<None Remove="Resources\Raw\winsound.wav" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -88,6 +91,7 @@
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Plugin.Maui.Audio" Version="2.1.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
 	</ItemGroup>
@@ -100,10 +104,10 @@
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Views\FormView.xaml">
-		  <Generator>MSBuild:Compile</Generator>
+			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Views\HistoryView.xaml">
-		  <Generator>MSBuild:Compile</Generator>
+			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Views\HomeView.xaml">
 			<Generator>MSBuild:Compile</Generator>

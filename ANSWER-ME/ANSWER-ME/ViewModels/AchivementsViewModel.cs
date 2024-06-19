@@ -25,18 +25,13 @@ namespace ANSWER_ME.ViewModels
             Achivements.OrderBy(x => x.ID);
         }
 
-        public async void UpdateAchived(string sender)
+        public void Update()
         {
-            foreach (Achivement ach in Achivements)
-            {
-                if (ach.Title == sender)
-                {
-                    ach.Date = DateTime.Now.Date;
-                    await Database.UpdateItemAsync(ach);
-                    Load();
-                    break;
-                }
-            }
+            /*
+            CheckAchivements check = new();
+            Achivements = check.Update(Achivements);
+            */
+            Load();
         }
     }
 }

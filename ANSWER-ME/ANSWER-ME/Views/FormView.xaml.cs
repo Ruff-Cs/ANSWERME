@@ -59,4 +59,10 @@ public partial class FormView : ContentPage
     {
         vm.NameChanged();
     }
+
+    private void ContentPage_Appearing(object sender, EventArgs e)
+    {
+        CheckAchivements check = new();
+        check.CheckAll(vm.Score);
+    }
 }

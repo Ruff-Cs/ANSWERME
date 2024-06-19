@@ -93,3 +93,6 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 AboutAssets.txt
+badsound.wav
+failsound.wav
+winsound.wav
