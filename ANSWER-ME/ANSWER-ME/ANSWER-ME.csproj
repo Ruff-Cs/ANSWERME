@@ -32,10 +32,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" ForegroundScale="0.7" Color="#4E7027" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#4E7027" BaseSize="200,200" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -50,10 +50,32 @@
 
 	<ItemGroup>
 		<None Remove="Resources\Images\achivements.svg" />
+		<None Remove="Resources\Images\Categorys\all.png" />
+		<None Remove="Resources\Images\Categorys\animals.png" />
+		<None Remove="Resources\Images\Categorys\art.png" />
+		<None Remove="Resources\Images\Categorys\board.png" />
 		<None Remove="Resources\Images\Categorys\books.png" />
+		<None Remove="Resources\Images\Categorys\cartoon.png" />
+		<None Remove="Resources\Images\Categorys\celebrities.png" />
+		<None Remove="Resources\Images\Categorys\comics.png" />
+		<None Remove="Resources\Images\Categorys\computers.png" />
 		<None Remove="Resources\Images\Categorys\film.png" />
+		<None Remove="Resources\Images\Categorys\gadgets.png" />
 		<None Remove="Resources\Images\Categorys\general.png" />
+		<None Remove="Resources\Images\Categorys\geography.png" />
+		<None Remove="Resources\Images\Categorys\history.png" />
+		<None Remove="Resources\Images\Categorys\japanese.png" />
+		<None Remove="Resources\Images\Categorys\mathematics.png" />
+		<None Remove="Resources\Images\Categorys\music.png" />
+		<None Remove="Resources\Images\Categorys\musicals.png" />
+		<None Remove="Resources\Images\Categorys\mythology.png" />
+		<None Remove="Resources\Images\Categorys\politics.png" />
 		<None Remove="Resources\Images\Categorys\random.png" />
+		<None Remove="Resources\Images\Categorys\science.png" />
+		<None Remove="Resources\Images\Categorys\sports.png" />
+		<None Remove="Resources\Images\Categorys\television.png" />
+		<None Remove="Resources\Images\Categorys\vehicles.png" />
+		<None Remove="Resources\Images\Categorys\video.png" />
 		<None Remove="Resources\Images\Cats\badx.gif" />
 		<None Remove="Resources\Images\Cats\bady.gif" />
 		<None Remove="Resources\Images\Cats\badz.gif" />
@@ -71,10 +93,32 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<MauiImage Include="Resources\Images\Categorys\all.png" />
+		<MauiImage Include="Resources\Images\Categorys\animals.png" />
+		<MauiImage Include="Resources\Images\Categorys\japanese.png" />
+		<MauiImage Include="Resources\Images\Categorys\art.png" />
+		<MauiImage Include="Resources\Images\Categorys\board.png" />
 		<MauiImage Include="Resources\Images\Categorys\books.png" />
+		<MauiImage Include="Resources\Images\Categorys\cartoon.png" />
+		<MauiImage Include="Resources\Images\Categorys\celebrities.png" />
+		<MauiImage Include="Resources\Images\Categorys\comics.png" />
+		<MauiImage Include="Resources\Images\Categorys\computers.png" />
 		<MauiImage Include="Resources\Images\Categorys\film.png" />
+		<MauiImage Include="Resources\Images\Categorys\gadgets.png" />
 		<MauiImage Include="Resources\Images\Categorys\general.png" />
+		<MauiImage Include="Resources\Images\Categorys\geography.png" />
+		<MauiImage Include="Resources\Images\Categorys\history.png" />
+		<MauiImage Include="Resources\Images\Categorys\mathematics.png" />
+		<MauiImage Include="Resources\Images\Categorys\music.png" />
+		<MauiImage Include="Resources\Images\Categorys\musicals.png" />
+		<MauiImage Include="Resources\Images\Categorys\mythology.png" />
+		<MauiImage Include="Resources\Images\Categorys\politics.png" />
 		<MauiImage Include="Resources\Images\Categorys\random.png" />
+		<MauiImage Include="Resources\Images\Categorys\science.png" />
+		<MauiImage Include="Resources\Images\Categorys\sports.png" />
+		<MauiImage Include="Resources\Images\Categorys\television.png" />
+		<MauiImage Include="Resources\Images\Categorys\vehicles.png" />
+		<MauiImage Include="Resources\Images\Categorys\video.png" />
 		<MauiImage Include="Resources\Images\Cats\badx.gif" />
 		<MauiImage Include="Resources\Images\Cats\bady.gif" />
 		<MauiImage Include="Resources\Images\Cats\badz.gif" />

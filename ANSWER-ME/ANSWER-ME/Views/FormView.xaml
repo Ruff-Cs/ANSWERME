@@ -38,7 +38,7 @@
             </Frame>
         </Grid>
 
-        <Grid Grid.Row="2" ColumnDefinitions="*,2*" ColumnSpacing="10" Margin="20,0,20,10">
+        <Grid Grid.Row="2" ColumnDefinitions="*,2*" ColumnSpacing="10" Margin="20,0,20,10" MaximumHeightRequest="120">
             <ImageButton x:Name="TrashBTN" Grid.Column="0" Source="trashcan.svg" CornerRadius="40" Padding="30" Margin="-30" Clicked="TrashBTN_Clicked"/>
             <Button x:Name="SaveBTN" Grid.Column="1" Text="save" FontSize="65" BackgroundColor="{StaticResource AccentPrimary}" TextColor="{StaticResource Black}" Padding="0,0,0,5" BorderWidth="0" CornerRadius="40" Clicked="SaveBTN_Clicked"/>
         </Grid>

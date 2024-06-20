@@ -13,13 +13,15 @@
             <CollectionView Grid.Row="1" ItemsSource="{Binding Achivements}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="vm:Achivement">
-                        <Frame Margin="10,10,10,0" BackgroundColor="{StaticResource Primary}">
-                            <Grid RowDefinitions="35,50" ColumnDefinitions="260,90" Margin="15,5,20,5">
+                        <Grid HeightRequest="120">
+                            <Frame Margin="10,10,10,0" BackgroundColor="{StaticResource Primary}" IsVisible="{Binding Achived}" ZIndex="-1"/>
+                            <Grid RowDefinitions="35,50" ColumnDefinitions="260,90" Margin="25,15,20,15">
                                 <Label Grid.Row="0" Grid.Column="0" Text="{Binding Title, Mode=OneTime}" Opacity="1" FontSize="22" FontAttributes="Bold" VerticalTextAlignment="End"/>
                                 <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description, Mode=OneTime}" FontAttributes="Italic" FontSize="18"/>
                                 <Label Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Text="{Binding Date, StringFormat='{0:yy.MM.dd}'}" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" LineBreakMode="TailTruncation" TextColor="{StaticResource AccentPrimary}" Opacity=".9"/>
                             </Grid>
-                        </Frame>
+                            <Frame  Margin="10,10,10,0" BackgroundColor="{StaticResource Primary}" Opacity=".4" ZIndex="-2"/>
+                        </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
