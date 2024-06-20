@@ -28,24 +28,29 @@ public partial class HomeView : ContentPage
     private async void PlayBTN_Clicked(object sender, EventArgs e)
     {
         PlayBTN.IsEnabled = false;
-        try
+        NetworkAccess accessType = Connectivity.Current.NetworkAccess;
+        if (accessType == NetworkAccess.Internet)
         {
-            vm.CallTrivia();
-        }
-        catch (Exception x)
-        {
-            await DisplayAlert("Something went wrong", $"{x}", "Ok");
-        }
+            try
+            {
+                vm.CallTrivia();
+            }
+            catch (Exception x)
+            {
+                await DisplayAlert("Something went wrong", $"{x}", "Ok");
+            }
 
-        if (vm.t != null && vm.t.response_code == 0) await Navigation.PushAsync(new TriviaView(vm.t, vm.end));
-        else await DisplayAlert("Ooops", "Something went wrong", "Ok");
+            if (vm.t != null && vm.t.response_code == 0) await Navigation.PushAsync(new TriviaView(vm.t, vm.end));
+            else await DisplayAlert("Ooops", "Something went wrong", "Ok");
+        }
+        else
+            await DisplayAlert("Ohh noo", "There's no internet connection!", "Ok");
 
         PlayBTN.IsEnabled = true;
     }
 
     private async void AchivementsBTN_Clicked(object sender, EventArgs e)
     {
-        // await Navigation.PushAsync(new AchivementView());
         await Shell.Current.GoToAsync(nameof(AchivementView));
     }
 
